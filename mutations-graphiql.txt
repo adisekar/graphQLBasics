@@ -1,0 +1,20 @@
+mutation{
+  addUser(firstName:"Adi", age: 33){
+    id,
+    firstName
+  }
+}
+
+mutation{
+  deleteUser(id:"JUoTghb"){
+    id
+  }
+}
+
+mutation{
+  editUser(id:"5Pxymvh", firstName: "Adithya"){
+    id,
+    firstName,
+    age
+  }
+}
